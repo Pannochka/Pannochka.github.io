@@ -1,0 +1,157 @@
+/*MEDIUM Devices, Desctops */
+
+@media only screen and (max-width: 980px) {
+	.container {
+		width: 750px; 
+	}
+	.intro {
+		padding-right: 230px;
+	}
+	aside.left {
+		width: 31%;
+	}
+	aside.right {
+		width: 69%;
+	}
+	table, table tr td:first-child {
+		color: white;
+	}
+}
+
+/*SMALL Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+	.container {
+		width: 450px; 
+	}
+	body, p, a, li {
+		font-size: 11px;
+	}
+	h1  {
+		font-size: 24px;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	header {
+		height: 86px;
+		background: url(../img/cherry_top.png) repeat-y; 
+	}
+	.logo {
+		width: 40%;
+	}
+	.logo_info {
+		line-height: 1.2;
+		padding-bottom: 3px;
+	}
+	.search_form input {
+	 	width: 180px;
+		height: 28px;
+		padding-left: 5px;
+	}
+	.search_form button {
+		width: 30px;
+		height: 28px;
+		margin-left: 6px;
+	}
+	.intro {
+		padding-right: 20px;
+		padding-left: 27px;
+	}
+	nav a {
+		padding: 0 2px;
+		font-size: 12px;
+	}
+	aside.right, aside.left {
+		width: 100%;
+		float: none;
+	}
+	aside.right .info a {
+		font-size: 11px;
+	}
+	aside.left {
+		display: flex;
+    	flex-direction: column-reverse;
+	}
+	aside.left {
+		padding-right: 15px;
+	}
+	.contact_info {
+		display: table-footer-group;
+	}
+	.table_block {
+		margin: 10px 0;
+	}
+	.table_block a {
+		font-size: 11px;
+	}
+	footer {
+		height: 400px;
+		background-image: url(../img/cherry_footer.png) repeat-y;
+	}
+	footer .footer_info {
+		width: 49%;
+	}
+ }
+
+/* Extra SMALL Devices, Phones */
+
+@media only screen and (max-width: 480px) {
+	.container {
+		width: 320px; /*уменьшим ширину обертки */
+	}
+	header {
+		height: 100px;
+		background: url(../img/cherry_top.png) repeat; 
+	}
+	.logo {
+		width: 100%;
+		float: none;
+	}
+	.logo p {
+		font-size: 12px;
+		font-stretch: semi-condensed;
+	}
+	.search_form {
+		float: none;
+		margin-left: 8px;
+		margin-top: 5px;
+	}
+
+	nav, .pages_nav {
+		padding: 3px 0;
+		height: 24px;
+	}	
+	nav a, .pages_nav a {
+		font-size: 10px;
+		padding: 0 7px;
+	}
+	nav a:last-child {
+		padding-right: 5px;
+	}
+	.pages_nav {
+		padding-left: 12px;
+	}
+
+	aside.right h2 {
+		font-size: 16px;
+	}
+	.table_block a, tr td:first-child, th, td {
+		font-size: 9px;
+	}
+	th, td {
+		padding: 3px;
+	}
+	footer {
+		height: 500px;
+		border-top: 4px solid rgb(174, 75, 93);
+	}
+	.footer_info {
+		float: none;
+		width: 100%;
+		margin: auto;
+	}
+	h5 {
+		margin-top: 20px;
+	}
+}
