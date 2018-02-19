@@ -96,6 +96,8 @@ h2:first-letter {
  	width: 198px;
 	height: 34px;
 	background: #22252A;
+	float: left;
+
 	color: rgb(36, 39, 44);
 	border: 1px solid rgb(135, 95, 102);
 	border-radius: 5px;
@@ -110,12 +112,7 @@ h2:first-letter {
 	background-image: url(../img/search.png);
 	background-position: center;
 }
-.search_form button:before {
-	content: "\f002";
-	font-family: FontAwesome;
-	font-size: 16px;
-	color: rgb(253, 253, 253);
-}
+
 
 /*SLIDER*/
 
